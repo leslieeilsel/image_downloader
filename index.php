@@ -3,8 +3,7 @@ require('class/ReadJson.php');
 require('class/Spider.php');
 
 // 读取json文件，获取图片地址
-echo '- Read JSON file...';
-echo PHP_EOL;
+echo '- Read JSON file...', PHP_EOL;
 $read = new ReadJson();
 $json = $read->json('earthview.json');
 $images = array_column($json, 'image');
