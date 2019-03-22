@@ -1,4 +1,4 @@
-# image_downloader
+# Image Downloader
 
 ### ReadJson Class
 
